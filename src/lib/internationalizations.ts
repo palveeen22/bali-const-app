@@ -19,6 +19,7 @@ export const LANGUAGES: Record<Lang, { label: string; value: Lang; dictionary: T
     dictionary: DICTIONARIES.ru,
   },
 };
+
 export const LANGUAGE_OPTIONS = Object.entries(LANGUAGES).map(([_, { dictionary, ...rest }]) => ({ ...rest }));
 
 export const getDictionary = (lang: Lang): TDictionary => LANGUAGES[lang].dictionary;

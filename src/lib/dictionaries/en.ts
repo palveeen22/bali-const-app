@@ -1,8 +1,6 @@
 export const en = {
-    hello: "Hello",
-    navbar: {
+    navbarLabel: {
       home: "Home",
-      about: "About",
       projects: "Projects",
       blog:"Blogs"
     },

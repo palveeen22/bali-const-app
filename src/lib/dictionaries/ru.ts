@@ -1,10 +1,8 @@
 import { TDictionary } from "@/src/types";
 
 export const ru: TDictionary = {
-  hello: "Привет",
-  navbar: {
+  navbarLabel: {
     home: "Дом",
-    about: "О себе",
     projects: "Проекты",
     blog:"Блоги"
   },
