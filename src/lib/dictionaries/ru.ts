@@ -1,9 +1,13 @@
 import { TDictionary } from "@/src/types";
 
 export const ru: TDictionary = {
-  navbarLabel: {
-    home: "Дом",
-    projects: "Проекты",
-    blog:"Блоги"
+  title: "Palugada — Expert Procurement Consulting for Real Estate Development",
+  navbar: {
+    about: "О нас",
+    service: "Услуги",
+    blog: "Блог",
+    resource: "Ресурсы",
+    contact: "Связаться с нами",
+    talk: "Давайте поговорим"
   },
 };

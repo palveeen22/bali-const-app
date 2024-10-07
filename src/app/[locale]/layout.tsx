@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Inter_Tight } from 'next/font/google'
 import Navbar from "@/src/components/Navbar";
+import Footer from "@/src/components/Footer";
 
 
 
@@ -55,6 +56,7 @@ export default function RootLayout({
   children,
   params: { locale }
 }: Readonly<RootLayout>) {
+
   return (
     <html
       className={interTight.className}
@@ -64,7 +66,7 @@ export default function RootLayout({
         <main>
           <Navbar />
           {children}
-          {/* <Footer /> */}
+          <Footer />
         </main>
       </body>
     </html>

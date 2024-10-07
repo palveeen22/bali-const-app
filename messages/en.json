@@ -1,8 +1,13 @@
 {
-    "navbarLabel": {
-      "home": "Home",
-      "project": "Projects",
-      "blog": "Blogs"
-    }
+  "title": {
+    "title": "Palugada"
+  },
+  "navbar": {
+    "about": "About",
+    "service": "Services",
+    "blog": "Blog",
+    "resource": "Resources",
+    "contact": "Contact Us",
+    "talk": " Let's Talk"
   }
-  
+}

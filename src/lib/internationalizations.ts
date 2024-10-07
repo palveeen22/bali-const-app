@@ -22,4 +22,16 @@ export const LANGUAGES: Record<Lang, { label: string; value: Lang; dictionary: T
 
 export const LANGUAGE_OPTIONS = Object.entries(LANGUAGES).map(([_, { dictionary, ...rest }]) => ({ ...rest }));
 
-export const getDictionary = (lang: Lang): TDictionary => LANGUAGES[lang].dictionary;
+// export const getDictionary = (lang: Lang): TDictionary => LANGUAGES[lang].dictionary;
+
+export const getDictionary = (lang: Lang) => {
+  const { dictionary: t, ...rest } = LANGUAGES[lang];
+  return { t, ...rest };
+};
+
+export const changeLang = (lang: Lang, path: string) => {
+  if (!path) return "/";
+  const segments = path.split("/");
+  segments[1] = lang;
+  return segments.join("/");
+};

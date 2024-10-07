@@ -1,7 +1,13 @@
 {
-    "navbarLabel":{
-        "home": "Главная",
-        "project":"Проекты",
-        "blog":"Блоги"
-    }
+ "title": {
+    "title": "Palugada"
+  },
+  "navbar": {
+    "about": "О нас",
+    "service": "Услуги",
+    "blog": "Блог",
+    "resource": "Ресурсы",
+    "contact": "Связаться с нами",
+    "talk": "Давайте поговорим"
+  }
 }

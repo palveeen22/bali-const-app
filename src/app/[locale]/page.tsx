@@ -1,11 +1,11 @@
-import { useTranslations } from "next-intl";
+import HomePage from "@/src/components/pages/Home";
+import { Fragment } from "react";
 
 export default function Home() {
-  const t = useTranslations("navbarLabel");
 
   return (
-    <main className="min-h-screen bg-red-400">
-      <p>{t("home")}</p>
-    </main>
+    <Fragment>
+    <HomePage/>
+    </Fragment>
   );
 }

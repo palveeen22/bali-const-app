@@ -12,6 +12,7 @@ export type TBlogs = {
 	date: string,
 };
 
+
 export type TProjectCardProps = {
     project: {
         url: string
