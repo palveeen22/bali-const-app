@@ -15,6 +15,7 @@ const config = {
         foreground: "var(--foreground)",
         'cgreendark': '#003B3E',
         'cgreenlight': '#01DC82',
+        'cgreen': '#F0F5F1'
       },
       fontFamily: {
         'inter-tight': ['var(--font-inter-tight)', ...(fontFamily.sans as string[])],

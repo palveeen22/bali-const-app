@@ -25,7 +25,7 @@ const Navbar = () => {
 
   return (
     // <nav className={`w-full flex justify-between items-center py-4 px-20 fixed top-0 left-0 right-0 transition-all duration-300 ${showBorder ? 'border-b border-gray-200' : ''}`}>
-    <nav className="w-full flex justify-between items-center py-4 px-20 ">
+    <nav className="w-full flex justify-between items-center py-4 px-20 bg-cgreendark">
       <div className='flex justify-start gap-2 items-center'>
         <AiFillAlert color='white' size={30}/>
         <h1>Constructopia</h1>
